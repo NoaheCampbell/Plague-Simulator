@@ -9,12 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6798288087602266556}
-  - component: {fileID: 4417801480222441954}
-  - component: {fileID: 8466059181301070539}
-  - component: {fileID: 2007243423333295984}
   - component: {fileID: 3511683091093645681}
-  - component: {fileID: -1624534831132295037}
-  - component: {fileID: -6832044601656237019}
+  - component: {fileID: 6756760711832240734}
+  - component: {fileID: 4051180547416020742}
+  - component: {fileID: 3677036216047473763}
+  - component: {fileID: 542036229433506884}
   m_Layer: 0
   m_Name: Person
   m_TagString: Person
@@ -38,7 +37,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4417801480222441954
+--- !u!136 &3511683091093645681
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570488442212799989}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6756760711832240734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570488442212799989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 421213e02fc8245b086f057d8460fec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personPrefab: {fileID: 1570488442212799989}
+  spawnChance: 50
+  maxSpawns: 10
+  currentSpawns: 0
+--- !u!114 &4051180547416020742
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -61,9 +90,8 @@ MonoBehaviour:
   isImmuneFromStart: 0
   timeSinceLastSpawn: 0
   timeNeededToSpawn: 5
-  maxTimeAlive: 100
   timeAlive: 0
---- !u!114 &8466059181301070539
+--- !u!114 &3677036216047473763
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -80,9 +108,9 @@ MonoBehaviour:
   diseaseMaster: {fileID: 0}
   meshRenderer: {fileID: 0}
   infectedMaterial: {fileID: 2100000, guid: 5c73e1f783532451984e8461502827ea, type: 2}
-  recoveredMaterial: {fileID: 2100000, guid: ca1b5397da8b5498881b4c96b1be43a3, type: 2}
+  unInfectedMaterial: {fileID: 2100000, guid: ca1b5397da8b5498881b4c96b1be43a3, type: 2}
   immuneMaterial: {fileID: 2100000, guid: ae405fc31095d4480a6d700d4559dc25, type: 2}
---- !u!114 &2007243423333295984
+--- !u!114 &542036229433506884
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -98,78 +126,6 @@ MonoBehaviour:
   infectionChance: 40
   deathChance: 20
   incubationTime: 5
---- !u!136 &3511683091093645681
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1570488442212799989}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &-1624534831132295037
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1570488442212799989}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &-6832044601656237019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1570488442212799989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 421213e02fc8245b086f057d8460fec5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  personPrefab: {fileID: 1570488442212799989}
-  spawnChance: 10
-  maxSpawns: 3
-  currentSpawns: 0
 --- !u!1 &4424812196011293983
 GameObject:
   m_ObjectHideFlags: 0

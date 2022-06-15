@@ -21,15 +21,13 @@ public class PersonScript : MonoBehaviour
         personMaster = GetComponent<PersonMaster>();
         spawner = GetComponent<Spawner>();
         diseaseMaster = GetComponent<DiseaseMaster>();
-        meshRenderer = GetComponent<MeshRenderer>();
+        meshRenderer = transform.GetChild(0).GetComponent<MeshRenderer>();
         canMoveForward = true;
-
-        personMaster.immuneTime += Random.Range(0f, 5f);
 
         if (!personMaster.isImmuneFromStart)
         {
             var randomNum = Random.Range(0f, 100f);
-            if (randomNum < 5)
+            if (randomNum < 1)
             {
                 personMaster.isImmuneFromStart = true;
                 meshRenderer.material = immuneMaterial;
@@ -39,9 +37,18 @@ public class PersonScript : MonoBehaviour
                 personMaster.isImmuneFromStart = false;
                 meshRenderer.material = unInfectedMaterial;
             }
+
+            if (randomNum > 95)
+            {
+                personMaster.isInfected = true;
+                meshRenderer.material = infectedMaterial;
+            }
         }
         
-        personMaster.maxTimeAlive += Random.Range(0f, 10f);
+        personMaster.maxTimeAlive += Random.Range(-10f, 10f);
+        diseaseMaster.recoveryTime += Random.Range(-10f, 10f);
+        personMaster.immuneTime += Random.Range(-10f, 10f);
+
 
         transform.rotation = Quaternion.Euler(0, Random.Range(0f, 360f), 0);
 
@@ -59,7 +66,6 @@ public class PersonScript : MonoBehaviour
 
         UpdateTimers();
 
-        personMaster.timeSinceLastSpawn += Time.deltaTime;
     }
 
     public void CheckForNearbyPeople()
@@ -71,13 +77,13 @@ public class PersonScript : MonoBehaviour
             foreach (GameObject person in people)
             {
                 var personPos = person.transform.position;
-                if (Mathf.Abs(personPos.x - transform.position.x) <= 1 && Mathf.Abs(personPos.z - transform.position.x) <= 1)
+                if (Mathf.Abs(personPos.x - transform.position.x) <= 0.5 && Mathf.Abs(personPos.z - transform.position.x) <= 0.5)
                 {
                     Infect(person);
 
                     if (personMaster.timeSinceLastSpawn >= personMaster.timeNeededToSpawn)
                     {
-                        spawner.Spawn(gameObject);
+                        spawner.Spawn(gameObject, person);
                         personMaster.timeSinceLastSpawn = 0f;
                     }
                 }
@@ -131,7 +137,24 @@ public class PersonScript : MonoBehaviour
             {
                 personMaster.canInfect = true;
             }
+
+            if (personMaster.timeSinceInfected >= diseaseMaster.recoveryTime)
+            {
+                SetImmune();
+            }
         }
+        if (personMaster.isImmune && !personMaster.isImmuneFromStart)
+        {
+            if (personMaster.timeSinceRecovered >= personMaster.immuneTime)
+            {
+                SetNormal();
+            }
+            else
+            {
+                personMaster.timeSinceRecovered += Time.deltaTime;
+            }
+        }
+
 
         if (personMaster.timeAlive >= personMaster.maxTimeAlive)
         {
@@ -158,6 +181,22 @@ public class PersonScript : MonoBehaviour
         personMaster.timeAlive = 0f;
     }
 
+    public void SetImmune()
+    {
+        personMaster.isImmune = true;
+        personMaster.isInfected = false;
+        personMaster.canInfect = false;
+        meshRenderer.material = immuneMaterial;
+    }
+
+    public void SetNormal()
+    {
+        personMaster.isImmune = false;
+        personMaster.isInfected = false;
+        personMaster.canInfect = true;
+        meshRenderer.material = unInfectedMaterial;
+    }
+
     IEnumerator ChangeDirectionCoroutine()
     {
         var timerLeft = 10f;
@@ -167,7 +206,7 @@ public class PersonScript : MonoBehaviour
         {
             transform.Translate(-transform.forward * Time.deltaTime * personMaster.speed);
             yield return new WaitForSeconds(0.001f);
-            timerLeft -= 0.1f;
+            timerLeft -= 0.5f;
         }
 
         var randomNum = Random.Range(-360f, 360f);

@@ -16,6 +16,6 @@ public class PersonMaster : MonoBehaviour
     public bool isImmuneFromStart = false;
     public float timeSinceLastSpawn = 0f;
     public float timeNeededToSpawn = 5f;
-    [System.NonSerialized] public float maxTimeAlive = 50f;
+    [System.NonSerialized] public float maxTimeAlive = 100f;
     public float timeAlive = 0f;
 }

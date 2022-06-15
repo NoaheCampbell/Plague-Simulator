@@ -846,9 +846,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 347366465}
     m_Modifications:
+    - target: {fileID: 1422418986956206488, guid: a58ae1f6831ba4a1da271d708374b1b8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ca1b5397da8b5498881b4c96b1be43a3, type: 2}
     - target: {fileID: 1570488442212799989, guid: a58ae1f6831ba4a1da271d708374b1b8, type: 3}
       propertyPath: m_Name
       value: Person (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5834860705853209419, guid: a58ae1f6831ba4a1da271d708374b1b8, type: 3}
+      propertyPath: isInfected
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6798288087602266556, guid: a58ae1f6831ba4a1da271d708374b1b8, type: 3}
       propertyPath: m_RootOrder
