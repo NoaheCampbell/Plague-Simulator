@@ -36,8 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs" />
      <Compile Include="Assets/Plugins/GitHub/Editor/ExtensionLoader.cs" />
+     <Compile Include="Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs" />
      <None Include="Assets/Plugins/GitHub/Editor/credits.txt" />
      <None Include="Assets/Plugins/GitHub/Editor/eula.txt" />
     <Reference Include="UnityEngine">
@@ -301,6 +301,9 @@
     <Reference Include="UnityEditor.iOS.Extensions">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.3f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="GitHub.Logging">
+        <HintPath>/Users/nosh/Desktop/Plague Game/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
         <HintPath>/Users/nosh/Desktop/Plague Game/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -316,21 +319,6 @@
     <Reference Include="log4netPlastic">
         <HintPath>/Users/nosh/Desktop/Plague Game/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>/Users/nosh/Desktop/Plague Game/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="ReportGeneratorMerged">
-        <HintPath>/Users/nosh/Desktop/Plague Game/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-        <HintPath>/Users/nosh/Desktop/Plague Game/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-        <HintPath>/Users/nosh/Desktop/Plague Game/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Logging">
-        <HintPath>/Users/nosh/Desktop/Plague Game/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
-    </Reference>
     <Reference Include="GitHub.Unity.45">
         <HintPath>/Users/nosh/Desktop/Plague Game/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
     </Reference>
@@ -340,8 +328,20 @@
     <Reference Include="sfw.net">
         <HintPath>/Users/nosh/Desktop/Plague Game/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+        <HintPath>/Users/nosh/Desktop/Plague Game/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="GitHub.Api.45">
         <HintPath>/Users/nosh/Desktop/Plague Game/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+        <HintPath>/Users/nosh/Desktop/Plague Game/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>/Users/nosh/Desktop/Plague Game/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+        <HintPath>/Users/nosh/Desktop/Plague Game/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>/Users/nosh/Desktop/Plague Game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
