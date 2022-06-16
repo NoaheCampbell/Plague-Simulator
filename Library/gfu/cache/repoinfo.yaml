@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2022-06-15T13:29:15.770-07:00
-  initializedAtString: 2022-06-15T12:50:10.941-07:00
+  lastUpdatedAtString: 2022-06-15T18:22:43.997-07:00
+  initializedAtString: 2022-06-15T18:22:43.997-07:00
   currentGitRemote:
-    name: 
-    url: 
+    name: origin
+    url: https://github.com/NoaheCampbell/Plague-Simulator.git
     login: 
     user: 
     host: 
@@ -33,6 +33,6 @@ MonoBehaviour:
       url: 
     trackingBranch: 
   currentConfigRemote:
-    name: 
-    url: 
+    name: origin
+    url: https://github.com/NoaheCampbell/Plague-Simulator.git
   currentHead: 

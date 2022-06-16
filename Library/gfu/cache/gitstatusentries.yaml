@@ -13,798 +13,1152 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2022-06-15T15:34:10.205-07:00
-  initializedAtString: 2022-06-15T12:50:11.242-07:00
+  lastUpdatedAtString: 2022-06-15T18:31:46.125-07:00
+  initializedAtString: 2022-06-15T18:22:50.967-07:00
   entries:
+  - path: Assembly-CSharp.csproj
+    fullPath: /Users/nosh/Desktop/Plague Game/Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets/Prefabs/Person.prefab
     fullPath: /Users/nosh/Desktop/Plague Game/Assets/Prefabs/Person.prefab
     projectPath: Assets/Prefabs/Person.prefab
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets/Scenes/SampleScene.unity
     fullPath: /Users/nosh/Desktop/Plague Game/Assets/Scenes/SampleScene.unity
     projectPath: Assets/Scenes/SampleScene.unity
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Assets/Scripts/DiseaseMaster.cs
-    fullPath: /Users/nosh/Desktop/Plague Game/Assets/Scripts/DiseaseMaster.cs
-    projectPath: Assets/Scripts/DiseaseMaster.cs
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Scenes/SampleScene.unity.meta
+    fullPath: /Users/nosh/Desktop/Plague Game/Assets/Scenes/SampleScene.unity.meta
+    projectPath: Assets/Scenes/SampleScene.unity.meta
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Assets/Scripts/PersonMaster.cs
-    fullPath: /Users/nosh/Desktop/Plague Game/Assets/Scripts/PersonMaster.cs
-    projectPath: Assets/Scripts/PersonMaster.cs
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Scenes/SimulationScene.unity
+    fullPath: /Users/nosh/Desktop/Plague Game/Assets/Scenes/SimulationScene.unity
+    projectPath: Assets/Scenes/SimulationScene.unity
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Assets/Scripts/PersonScript.cs
-    fullPath: /Users/nosh/Desktop/Plague Game/Assets/Scripts/PersonScript.cs
-    projectPath: Assets/Scripts/PersonScript.cs
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scenes/SimulationScene.unity.meta
+    fullPath: /Users/nosh/Desktop/Plague Game/Assets/Scenes/SimulationScene.unity.meta
+    projectPath: Assets/Scenes/SimulationScene.unity.meta
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Assets/Scripts/Spawner.cs
-    fullPath: /Users/nosh/Desktop/Plague Game/Assets/Scripts/Spawner.cs
-    projectPath: Assets/Scripts/Spawner.cs
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/CameraScript.cs
+    fullPath: /Users/nosh/Desktop/Plague Game/Assets/Scripts/CameraScript.cs
+    projectPath: Assets/Scripts/CameraScript.cs
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/CameraScript.cs.meta
+    fullPath: /Users/nosh/Desktop/Plague Game/Assets/Scripts/CameraScript.cs.meta
+    projectPath: Assets/Scripts/CameraScript.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/ArtifactDB
     fullPath: /Users/nosh/Desktop/Plague Game/Library/ArtifactDB
     projectPath: Library/ArtifactDB
     originalPath: 
-    indexStatus: 3
+    indexStatus: 0
     workTreeStatus: 3
+  - path: Library/ArtifactDB-lock
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/ArtifactDB-lock
+    projectPath: Library/ArtifactDB-lock
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/Artifacts/03/0300f120c8aa11b95a07f5d9484da678
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/03/0300f120c8aa11b95a07f5d9484da678
+    projectPath: Library/Artifacts/03/0300f120c8aa11b95a07f5d9484da678
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/03/039ba7ee0fffe22fc1b77f25618829c8
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/03/039ba7ee0fffe22fc1b77f25618829c8
     projectPath: Library/Artifacts/03/039ba7ee0fffe22fc1b77f25618829c8
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/06/067fc795b5d0c02012f90a501b93d330
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/06/067fc795b5d0c02012f90a501b93d330
     projectPath: Library/Artifacts/06/067fc795b5d0c02012f90a501b93d330
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/06/06fac1fdf0524288a6022784d488e6a2
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/06/06fac1fdf0524288a6022784d488e6a2
     projectPath: Library/Artifacts/06/06fac1fdf0524288a6022784d488e6a2
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/0f/0f2a1596dc953250cb43dfa7e7a4af82
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/0f/0f2a1596dc953250cb43dfa7e7a4af82
+    projectPath: Library/Artifacts/0f/0f2a1596dc953250cb43dfa7e7a4af82
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/0f/0f7b7ae06f5a1a7a553ad3fef4d696af
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/0f/0f7b7ae06f5a1a7a553ad3fef4d696af
     projectPath: Library/Artifacts/0f/0f7b7ae06f5a1a7a553ad3fef4d696af
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/0f/0fd48eb6c713e37ca598f077d4f05723
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/0f/0fd48eb6c713e37ca598f077d4f05723
+    projectPath: Library/Artifacts/0f/0fd48eb6c713e37ca598f077d4f05723
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/10/1044055025da8b6eb2594d8a6caa12f9
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/10/1044055025da8b6eb2594d8a6caa12f9
     projectPath: Library/Artifacts/10/1044055025da8b6eb2594d8a6caa12f9
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/13/13942e2824d73a01052a693a971adff8
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/13/13942e2824d73a01052a693a971adff8
     projectPath: Library/Artifacts/13/13942e2824d73a01052a693a971adff8
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/14/14ed42d2c27878c564829fbd13df4705
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/14/14ed42d2c27878c564829fbd13df4705
     projectPath: Library/Artifacts/14/14ed42d2c27878c564829fbd13df4705
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/15/1501ebc7b971a805c5e41b0c4c1731ac
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/15/1501ebc7b971a805c5e41b0c4c1731ac
+    projectPath: Library/Artifacts/15/1501ebc7b971a805c5e41b0c4c1731ac
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/17/174bd71def8e6cd7493b20d107852902
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/17/174bd71def8e6cd7493b20d107852902
     projectPath: Library/Artifacts/17/174bd71def8e6cd7493b20d107852902
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/19/19a66e76606c897c486f17c8184c8a8c
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/19/19a66e76606c897c486f17c8184c8a8c
+    projectPath: Library/Artifacts/19/19a66e76606c897c486f17c8184c8a8c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/1a/1aaefadf0573283c948b52930f0a0779
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/1a/1aaefadf0573283c948b52930f0a0779
     projectPath: Library/Artifacts/1a/1aaefadf0573283c948b52930f0a0779
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/1b/1b058eef4f9163811d3e3d073db4c36c
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/1b/1b058eef4f9163811d3e3d073db4c36c
     projectPath: Library/Artifacts/1b/1b058eef4f9163811d3e3d073db4c36c
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/1d/1df810f79bfccc385212e84f731eb569
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/1d/1df810f79bfccc385212e84f731eb569
+    projectPath: Library/Artifacts/1d/1df810f79bfccc385212e84f731eb569
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/1e/1e8e35f57d2dad1be19e37fae4260823
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/1e/1e8e35f57d2dad1be19e37fae4260823
     projectPath: Library/Artifacts/1e/1e8e35f57d2dad1be19e37fae4260823
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/1e/1ecdc333f3372e0e38c7a1eeaa0be0e1
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/1e/1ecdc333f3372e0e38c7a1eeaa0be0e1
     projectPath: Library/Artifacts/1e/1ecdc333f3372e0e38c7a1eeaa0be0e1
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/21/2178a8a0fa8308fcfa83c6c3cf779a0c
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/21/2178a8a0fa8308fcfa83c6c3cf779a0c
     projectPath: Library/Artifacts/21/2178a8a0fa8308fcfa83c6c3cf779a0c
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/22/2264cfc846f7077740f8b9b0188a6e96
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/22/2264cfc846f7077740f8b9b0188a6e96
     projectPath: Library/Artifacts/22/2264cfc846f7077740f8b9b0188a6e96
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/24/242fb3245c044ea0ab0a287851952714
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/24/242fb3245c044ea0ab0a287851952714
     projectPath: Library/Artifacts/24/242fb3245c044ea0ab0a287851952714
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/25/2585f0c15aabbd08a94a51d0939a06b3
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/25/2585f0c15aabbd08a94a51d0939a06b3
     projectPath: Library/Artifacts/25/2585f0c15aabbd08a94a51d0939a06b3
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/26/26dd228cffab981098168e885695fe25
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/26/26dd228cffab981098168e885695fe25
     projectPath: Library/Artifacts/26/26dd228cffab981098168e885695fe25
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/28/28b35c58dae91b0fa9cfe0b1000be94d
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/28/28b35c58dae91b0fa9cfe0b1000be94d
     projectPath: Library/Artifacts/28/28b35c58dae91b0fa9cfe0b1000be94d
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/29/29156f25363abde73fe1e8f37f384900
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/29/29156f25363abde73fe1e8f37f384900
+    projectPath: Library/Artifacts/29/29156f25363abde73fe1e8f37f384900
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/2a/2a712c3af35750ca582cd9076f34b854
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/2a/2a712c3af35750ca582cd9076f34b854
     projectPath: Library/Artifacts/2a/2a712c3af35750ca582cd9076f34b854
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/2b/2b10937b47d9b73736cc930d37dbd0fe
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/2b/2b10937b47d9b73736cc930d37dbd0fe
     projectPath: Library/Artifacts/2b/2b10937b47d9b73736cc930d37dbd0fe
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/2c/2c92d83f2dd63e7e055d6ac1557a3c46
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/2c/2c92d83f2dd63e7e055d6ac1557a3c46
     projectPath: Library/Artifacts/2c/2c92d83f2dd63e7e055d6ac1557a3c46
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/30/308bf3e416eda61644202d8c9ef50f04
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/30/308bf3e416eda61644202d8c9ef50f04
     projectPath: Library/Artifacts/30/308bf3e416eda61644202d8c9ef50f04
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/31/31256d107589e8f056a934c9123b63a1
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/31/31256d107589e8f056a934c9123b63a1
     projectPath: Library/Artifacts/31/31256d107589e8f056a934c9123b63a1
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/33/33ca3385f41ec74cc9eed1c61ba90f59
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/33/33ca3385f41ec74cc9eed1c61ba90f59
     projectPath: Library/Artifacts/33/33ca3385f41ec74cc9eed1c61ba90f59
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/33/33d9e7e341162b18869961283823dc42
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/33/33d9e7e341162b18869961283823dc42
     projectPath: Library/Artifacts/33/33d9e7e341162b18869961283823dc42
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/36/364ef0441bb22013368d68c50accbed3
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/36/364ef0441bb22013368d68c50accbed3
     projectPath: Library/Artifacts/36/364ef0441bb22013368d68c50accbed3
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/38/383966fa8e8e1c1e1e6ae9a759fb85d9
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/38/383966fa8e8e1c1e1e6ae9a759fb85d9
+    projectPath: Library/Artifacts/38/383966fa8e8e1c1e1e6ae9a759fb85d9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/38/38ce374e9d6f272cf8b128f1dcc13187
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/38/38ce374e9d6f272cf8b128f1dcc13187
     projectPath: Library/Artifacts/38/38ce374e9d6f272cf8b128f1dcc13187
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/39/3992e3c2915d2ac349443d0e921db5ed
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/39/3992e3c2915d2ac349443d0e921db5ed
     projectPath: Library/Artifacts/39/3992e3c2915d2ac349443d0e921db5ed
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/41/41015127a220b934a3a17d0d073d6bcb
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/41/41015127a220b934a3a17d0d073d6bcb
     projectPath: Library/Artifacts/41/41015127a220b934a3a17d0d073d6bcb
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/41/414d35def5cdb3febc2305cd0422b7a6
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/41/414d35def5cdb3febc2305cd0422b7a6
     projectPath: Library/Artifacts/41/414d35def5cdb3febc2305cd0422b7a6
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/42/424a75c6b4ece393d149fb5d74e79dc1
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/42/424a75c6b4ece393d149fb5d74e79dc1
     projectPath: Library/Artifacts/42/424a75c6b4ece393d149fb5d74e79dc1
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/48/48a25b348886f4b07e6163a6d63aa8d6
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/48/48a25b348886f4b07e6163a6d63aa8d6
+    projectPath: Library/Artifacts/48/48a25b348886f4b07e6163a6d63aa8d6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/48/48ea74b5d4c0b31553619c5d8087b2b0
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/48/48ea74b5d4c0b31553619c5d8087b2b0
+    projectPath: Library/Artifacts/48/48ea74b5d4c0b31553619c5d8087b2b0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/4a/4ad21c419227ac7db34a127480f70178
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/4a/4ad21c419227ac7db34a127480f70178
+    projectPath: Library/Artifacts/4a/4ad21c419227ac7db34a127480f70178
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/4b/4b2b4887cc77c5ed0234fd2cc9cc96a0
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/4b/4b2b4887cc77c5ed0234fd2cc9cc96a0
+    projectPath: Library/Artifacts/4b/4b2b4887cc77c5ed0234fd2cc9cc96a0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/4b/4b7ee47e28391013d9b3653d32dba461
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/4b/4b7ee47e28391013d9b3653d32dba461
     projectPath: Library/Artifacts/4b/4b7ee47e28391013d9b3653d32dba461
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/4c/4cbf668bf84804ce82ea848b75c5cc9a
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/4c/4cbf668bf84804ce82ea848b75c5cc9a
+    projectPath: Library/Artifacts/4c/4cbf668bf84804ce82ea848b75c5cc9a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/4d/4d9a5add1e9503be8ac3e2bc2c1b40c0
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/4d/4d9a5add1e9503be8ac3e2bc2c1b40c0
+    projectPath: Library/Artifacts/4d/4d9a5add1e9503be8ac3e2bc2c1b40c0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/54/54a3015665a58c5cf5ec1b306c45895f
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/54/54a3015665a58c5cf5ec1b306c45895f
     projectPath: Library/Artifacts/54/54a3015665a58c5cf5ec1b306c45895f
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/58/580e64d7cdb4f59d014ad8ce2648c1a4
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/58/580e64d7cdb4f59d014ad8ce2648c1a4
+    projectPath: Library/Artifacts/58/580e64d7cdb4f59d014ad8ce2648c1a4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/60/60179c89ae6226987ebbb4da94a51073
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/60/60179c89ae6226987ebbb4da94a51073
+    projectPath: Library/Artifacts/60/60179c89ae6226987ebbb4da94a51073
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/61/614b8088b3f3a55a99a19ec24c3f313c
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/61/614b8088b3f3a55a99a19ec24c3f313c
+    projectPath: Library/Artifacts/61/614b8088b3f3a55a99a19ec24c3f313c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/65/657a27aa983843cca0a60983470fcc33
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/65/657a27aa983843cca0a60983470fcc33
     projectPath: Library/Artifacts/65/657a27aa983843cca0a60983470fcc33
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/65/65ad214992f2b1176ea1e024e633694d
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/65/65ad214992f2b1176ea1e024e633694d
     projectPath: Library/Artifacts/65/65ad214992f2b1176ea1e024e633694d
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/67/67a6d2f6ea5bd9da81dc2915cbd58938
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/67/67a6d2f6ea5bd9da81dc2915cbd58938
     projectPath: Library/Artifacts/67/67a6d2f6ea5bd9da81dc2915cbd58938
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/68/683e7787a32205c690215fd333654fe7
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/68/683e7787a32205c690215fd333654fe7
+    projectPath: Library/Artifacts/68/683e7787a32205c690215fd333654fe7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/69/6968644acbba65a2c40aa7c1c623d9f7
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/69/6968644acbba65a2c40aa7c1c623d9f7
     projectPath: Library/Artifacts/69/6968644acbba65a2c40aa7c1c623d9f7
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/6a/6ab957282890ad724aa8f74c65d5e1dc
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/6a/6ab957282890ad724aa8f74c65d5e1dc
     projectPath: Library/Artifacts/6a/6ab957282890ad724aa8f74c65d5e1dc
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/6c/6c949ce27ea51f906fe70efb161cec2d
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/6c/6c949ce27ea51f906fe70efb161cec2d
+    projectPath: Library/Artifacts/6c/6c949ce27ea51f906fe70efb161cec2d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/70/70db69c53a40f43b02653954bafc5337
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/70/70db69c53a40f43b02653954bafc5337
     projectPath: Library/Artifacts/70/70db69c53a40f43b02653954bafc5337
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/72/72e555dc85590d8a1b215dac0bc892d8
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/72/72e555dc85590d8a1b215dac0bc892d8
     projectPath: Library/Artifacts/72/72e555dc85590d8a1b215dac0bc892d8
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/73/73cecfd30aabd433ab37f1c1a529b582
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/73/73cecfd30aabd433ab37f1c1a529b582
+    projectPath: Library/Artifacts/73/73cecfd30aabd433ab37f1c1a529b582
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/73/73da222983dd8454e4a80bd2d3e46628
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/73/73da222983dd8454e4a80bd2d3e46628
+    projectPath: Library/Artifacts/73/73da222983dd8454e4a80bd2d3e46628
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/74/74c0dae9f955f9590174669357f75b5e
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/74/74c0dae9f955f9590174669357f75b5e
     projectPath: Library/Artifacts/74/74c0dae9f955f9590174669357f75b5e
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/75/7588fcb435e1096ed614c7728c6ca569
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/75/7588fcb435e1096ed614c7728c6ca569
     projectPath: Library/Artifacts/75/7588fcb435e1096ed614c7728c6ca569
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
-  - path: Library/Artifacts/79/793d4c040f063289f9a9cae4a679689a
-    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/79/793d4c040f063289f9a9cae4a679689a
-    projectPath: Library/Artifacts/79/793d4c040f063289f9a9cae4a679689a
-    originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/7a/7acf3106d0de7feb63fdd376727a0974
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/7a/7acf3106d0de7feb63fdd376727a0974
     projectPath: Library/Artifacts/7a/7acf3106d0de7feb63fdd376727a0974
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/7f/7f15b299118de732772d1a893585457c
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/7f/7f15b299118de732772d1a893585457c
     projectPath: Library/Artifacts/7f/7f15b299118de732772d1a893585457c
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
-  - path: Library/Artifacts/7f/7f481a467d3b3d8d3325bd4729e36a87
-    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/7f/7f481a467d3b3d8d3325bd4729e36a87
-    projectPath: Library/Artifacts/7f/7f481a467d3b3d8d3325bd4729e36a87
-    originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/7f/7fb4652079039798095314eb7bdbf758
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/7f/7fb4652079039798095314eb7bdbf758
     projectPath: Library/Artifacts/7f/7fb4652079039798095314eb7bdbf758
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/80/80234abafeadaf0a89a21f7ac855ded5
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/80/80234abafeadaf0a89a21f7ac855ded5
     projectPath: Library/Artifacts/80/80234abafeadaf0a89a21f7ac855ded5
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/81/81a889c8677964d60301e0e2b9caee3b
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/81/81a889c8677964d60301e0e2b9caee3b
     projectPath: Library/Artifacts/81/81a889c8677964d60301e0e2b9caee3b
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/85/8543813b67cbcc3360e953f026a34658
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/85/8543813b67cbcc3360e953f026a34658
     projectPath: Library/Artifacts/85/8543813b67cbcc3360e953f026a34658
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/87/872b5331cbd03978c5850643455f40a2
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/87/872b5331cbd03978c5850643455f40a2
     projectPath: Library/Artifacts/87/872b5331cbd03978c5850643455f40a2
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/87/87ed30f43e763032970bfb988a3baa93
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/87/87ed30f43e763032970bfb988a3baa93
     projectPath: Library/Artifacts/87/87ed30f43e763032970bfb988a3baa93
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/88/885ba7ceb41e41fb456f7b298f7e840a
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/88/885ba7ceb41e41fb456f7b298f7e840a
     projectPath: Library/Artifacts/88/885ba7ceb41e41fb456f7b298f7e840a
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/89/89b8df22fc47334a8134985231f6948e
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/89/89b8df22fc47334a8134985231f6948e
     projectPath: Library/Artifacts/89/89b8df22fc47334a8134985231f6948e
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/8f/8fca9ae8a1d97909950c680b7ff0113d
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/8f/8fca9ae8a1d97909950c680b7ff0113d
     projectPath: Library/Artifacts/8f/8fca9ae8a1d97909950c680b7ff0113d
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/91/912606a7fa008ad6fe9122bcfdc706f2
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/91/912606a7fa008ad6fe9122bcfdc706f2
     projectPath: Library/Artifacts/91/912606a7fa008ad6fe9122bcfdc706f2
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/92/92b0f383b6bcd103e37402ad148bb66f
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/92/92b0f383b6bcd103e37402ad148bb66f
     projectPath: Library/Artifacts/92/92b0f383b6bcd103e37402ad148bb66f
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/93/93271d769e9686c7161b59f6e00c1ec3
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/93/93271d769e9686c7161b59f6e00c1ec3
     projectPath: Library/Artifacts/93/93271d769e9686c7161b59f6e00c1ec3
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/93/93c0b4b341e1d955f205a75d141f6d64
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/93/93c0b4b341e1d955f205a75d141f6d64
     projectPath: Library/Artifacts/93/93c0b4b341e1d955f205a75d141f6d64
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/94/94562a1635d32e29cc508b1e5b5dcb42
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/94/94562a1635d32e29cc508b1e5b5dcb42
+    projectPath: Library/Artifacts/94/94562a1635d32e29cc508b1e5b5dcb42
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/96/96a629a501d4e3befd2be19d9ebc50f8
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/96/96a629a501d4e3befd2be19d9ebc50f8
     projectPath: Library/Artifacts/96/96a629a501d4e3befd2be19d9ebc50f8
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/9a/9a003789fa262c18ad766d3bdfff912e
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/9a/9a003789fa262c18ad766d3bdfff912e
     projectPath: Library/Artifacts/9a/9a003789fa262c18ad766d3bdfff912e
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/9d/9da9fc3d6c400049bd77394a8743b10d
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/9d/9da9fc3d6c400049bd77394a8743b10d
+    projectPath: Library/Artifacts/9d/9da9fc3d6c400049bd77394a8743b10d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/9f/9fdd16e93d4a9d5509251bd26d547172
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/9f/9fdd16e93d4a9d5509251bd26d547172
+    projectPath: Library/Artifacts/9f/9fdd16e93d4a9d5509251bd26d547172
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/a0/a09b824bbde0ce642bbfaf2f75e4935c
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/a0/a09b824bbde0ce642bbfaf2f75e4935c
+    projectPath: Library/Artifacts/a0/a09b824bbde0ce642bbfaf2f75e4935c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/a1/a1e1732a4426b38e7a2a0d6b0ecb59eb
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/a1/a1e1732a4426b38e7a2a0d6b0ecb59eb
     projectPath: Library/Artifacts/a1/a1e1732a4426b38e7a2a0d6b0ecb59eb
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/a3/a3002e5a278e7ddff3d9fe93e2fe57e7
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/a3/a3002e5a278e7ddff3d9fe93e2fe57e7
     projectPath: Library/Artifacts/a3/a3002e5a278e7ddff3d9fe93e2fe57e7
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/a3/a3cae43f00cb9309640e101d1040337f
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/a3/a3cae43f00cb9309640e101d1040337f
     projectPath: Library/Artifacts/a3/a3cae43f00cb9309640e101d1040337f
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/a4/a4eaa56e0addceacd94d08d07dc16509
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/a4/a4eaa56e0addceacd94d08d07dc16509
     projectPath: Library/Artifacts/a4/a4eaa56e0addceacd94d08d07dc16509
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/a6/a6e98838aaa1f0f4b1da5b4093c4f697
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/a6/a6e98838aaa1f0f4b1da5b4093c4f697
     projectPath: Library/Artifacts/a6/a6e98838aaa1f0f4b1da5b4093c4f697
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/a7/a77f21b1a10e7c1e04b8e8e864ffdac4
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/a7/a77f21b1a10e7c1e04b8e8e864ffdac4
     projectPath: Library/Artifacts/a7/a77f21b1a10e7c1e04b8e8e864ffdac4
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/a7/a7c4c96b65dea7ad3197267aa1f6111c
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/a7/a7c4c96b65dea7ad3197267aa1f6111c
     projectPath: Library/Artifacts/a7/a7c4c96b65dea7ad3197267aa1f6111c
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/ac/ace7abcb7628999a53ab80589fd787bf
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/ac/ace7abcb7628999a53ab80589fd787bf
+    projectPath: Library/Artifacts/ac/ace7abcb7628999a53ab80589fd787bf
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/ac/acfa957fa07375b661bc461f1da2abed
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/ac/acfa957fa07375b661bc461f1da2abed
     projectPath: Library/Artifacts/ac/acfa957fa07375b661bc461f1da2abed
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/ad/adc37a7fd796a9109634e38ac96143d9
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/ad/adc37a7fd796a9109634e38ac96143d9
     projectPath: Library/Artifacts/ad/adc37a7fd796a9109634e38ac96143d9
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/b1/b13789efea7f7f32a5cfdf06e7b424d7
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/b1/b13789efea7f7f32a5cfdf06e7b424d7
     projectPath: Library/Artifacts/b1/b13789efea7f7f32a5cfdf06e7b424d7
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/b3/b3f8cb5b26f20751358ca1159cc175cf
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/b3/b3f8cb5b26f20751358ca1159cc175cf
     projectPath: Library/Artifacts/b3/b3f8cb5b26f20751358ca1159cc175cf
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/b6/b6b6e21b1e296bd169cb16fc236e3b13
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/b6/b6b6e21b1e296bd169cb16fc236e3b13
+    projectPath: Library/Artifacts/b6/b6b6e21b1e296bd169cb16fc236e3b13
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/b7/b7b4b89c575f714c9b8a188500a200fe
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/b7/b7b4b89c575f714c9b8a188500a200fe
     projectPath: Library/Artifacts/b7/b7b4b89c575f714c9b8a188500a200fe
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/bb/bb03ccbd420937bfddfe4765c88e33be
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/bb/bb03ccbd420937bfddfe4765c88e33be
     projectPath: Library/Artifacts/bb/bb03ccbd420937bfddfe4765c88e33be
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/bf/bf6647da1d5de907b6bc097845f7e527
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/bf/bf6647da1d5de907b6bc097845f7e527
     projectPath: Library/Artifacts/bf/bf6647da1d5de907b6bc097845f7e527
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/c0/c04a070a0dd1c96cbbcc8e9516e268ff
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/c0/c04a070a0dd1c96cbbcc8e9516e268ff
     projectPath: Library/Artifacts/c0/c04a070a0dd1c96cbbcc8e9516e268ff
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/c1/c130066456c98640e97708b77a8a091e
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/c1/c130066456c98640e97708b77a8a091e
+    projectPath: Library/Artifacts/c1/c130066456c98640e97708b77a8a091e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/c1/c1a97c5b655d09ace54fcdf4ae529360
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/c1/c1a97c5b655d09ace54fcdf4ae529360
+    projectPath: Library/Artifacts/c1/c1a97c5b655d09ace54fcdf4ae529360
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/c1/c1f6ec0145a2148f45a64fe30ef3954c
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/c1/c1f6ec0145a2148f45a64fe30ef3954c
+    projectPath: Library/Artifacts/c1/c1f6ec0145a2148f45a64fe30ef3954c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/c2/c2be5c501a08dcbe413fe7b25af7895b
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/c2/c2be5c501a08dcbe413fe7b25af7895b
+    projectPath: Library/Artifacts/c2/c2be5c501a08dcbe413fe7b25af7895b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/c3/c37de51c3de157a08cf8e3c9590d8db1
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/c3/c37de51c3de157a08cf8e3c9590d8db1
     projectPath: Library/Artifacts/c3/c37de51c3de157a08cf8e3c9590d8db1
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/c3/c3be6099a849c3e2656bad92dfa0aeec
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/c3/c3be6099a849c3e2656bad92dfa0aeec
+    projectPath: Library/Artifacts/c3/c3be6099a849c3e2656bad92dfa0aeec
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/c5/c5cfb17e50311861f6d3f36e91e119ee
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/c5/c5cfb17e50311861f6d3f36e91e119ee
     projectPath: Library/Artifacts/c5/c5cfb17e50311861f6d3f36e91e119ee
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/c9/c93da5cbb8e326d1489748b1c783bce2
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/c9/c93da5cbb8e326d1489748b1c783bce2
     projectPath: Library/Artifacts/c9/c93da5cbb8e326d1489748b1c783bce2
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/ce/ce10d558db00684f58b652e3924d4161
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/ce/ce10d558db00684f58b652e3924d4161
+    projectPath: Library/Artifacts/ce/ce10d558db00684f58b652e3924d4161
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/d0/d0429a43f179612c90f6ff01eb852020
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/d0/d0429a43f179612c90f6ff01eb852020
     projectPath: Library/Artifacts/d0/d0429a43f179612c90f6ff01eb852020
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/d1/d19261b2c0c42ebe1322a6ea7923c9b8
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/d1/d19261b2c0c42ebe1322a6ea7923c9b8
     projectPath: Library/Artifacts/d1/d19261b2c0c42ebe1322a6ea7923c9b8
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/d1/d1d7c906328a7a57b1ca5ca172cd29af
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/d1/d1d7c906328a7a57b1ca5ca172cd29af
+    projectPath: Library/Artifacts/d1/d1d7c906328a7a57b1ca5ca172cd29af
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/d6/d6348a0b9f78f361a60d8c550d317222
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/d6/d6348a0b9f78f361a60d8c550d317222
     projectPath: Library/Artifacts/d6/d6348a0b9f78f361a60d8c550d317222
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/d6/d656d3184569340a6bbe0a451a18213c
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/d6/d656d3184569340a6bbe0a451a18213c
     projectPath: Library/Artifacts/d6/d656d3184569340a6bbe0a451a18213c
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/db/db589e675e9e8f59bbb256011cd6bdb8
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/db/db589e675e9e8f59bbb256011cd6bdb8
     projectPath: Library/Artifacts/db/db589e675e9e8f59bbb256011cd6bdb8
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/db/dbde7abb0d1052ead57b87d75d74c675
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/db/dbde7abb0d1052ead57b87d75d74c675
     projectPath: Library/Artifacts/db/dbde7abb0d1052ead57b87d75d74c675
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/dc/dcdc1b6f0b25d462d2d0e4e41cdd82ff
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/dc/dcdc1b6f0b25d462d2d0e4e41cdd82ff
     projectPath: Library/Artifacts/dc/dcdc1b6f0b25d462d2d0e4e41cdd82ff
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/e0/e019add2fb59579383cf97f7f9f25c1b
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/e0/e019add2fb59579383cf97f7f9f25c1b
+    projectPath: Library/Artifacts/e0/e019add2fb59579383cf97f7f9f25c1b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/e1/e14f0584f88f347f3fa1f538232b7a09
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/e1/e14f0584f88f347f3fa1f538232b7a09
     projectPath: Library/Artifacts/e1/e14f0584f88f347f3fa1f538232b7a09
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/e3/e31e356c72722ecdbb86e6f68bb9a33e
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/e3/e31e356c72722ecdbb86e6f68bb9a33e
     projectPath: Library/Artifacts/e3/e31e356c72722ecdbb86e6f68bb9a33e
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/ec/ecbce80175cd5394ef2a82743eb7b796
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/ec/ecbce80175cd5394ef2a82743eb7b796
+    projectPath: Library/Artifacts/ec/ecbce80175cd5394ef2a82743eb7b796
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/ef/efdd7199a69e74202a96d9026638403e
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/ef/efdd7199a69e74202a96d9026638403e
     projectPath: Library/Artifacts/ef/efdd7199a69e74202a96d9026638403e
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/f0/f0114051a3cc64ed92e76e09e2857d6f
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/f0/f0114051a3cc64ed92e76e09e2857d6f
+    projectPath: Library/Artifacts/f0/f0114051a3cc64ed92e76e09e2857d6f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/f0/f05384518e5d510a5e5d175529a97ddf
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/f0/f05384518e5d510a5e5d175529a97ddf
     projectPath: Library/Artifacts/f0/f05384518e5d510a5e5d175529a97ddf
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/f2/f2389843890de17b479927c5beaec40f
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/f2/f2389843890de17b479927c5beaec40f
+    projectPath: Library/Artifacts/f2/f2389843890de17b479927c5beaec40f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/f4/f46d377a0557d0b4c05ec330806ee142
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/f4/f46d377a0557d0b4c05ec330806ee142
     projectPath: Library/Artifacts/f4/f46d377a0557d0b4c05ec330806ee142
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
-  - path: Library/Artifacts/f7/f7275d5cb8a22de0dd871b8ce9db1830
-    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/f7/f7275d5cb8a22de0dd871b8ce9db1830
-    projectPath: Library/Artifacts/f7/f7275d5cb8a22de0dd871b8ce9db1830
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/f7/f7157c1e8555f40429ad2760e6711490
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/f7/f7157c1e8555f40429ad2760e6711490
+    projectPath: Library/Artifacts/f7/f7157c1e8555f40429ad2760e6711490
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/f7/f75d544319ee1769fa0ce094e3bc7640
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/f7/f75d544319ee1769fa0ce094e3bc7640
     projectPath: Library/Artifacts/f7/f75d544319ee1769fa0ce094e3bc7640
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/f7/f773e1af2746565551e481e89f895f77
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/f7/f773e1af2746565551e481e89f895f77
     projectPath: Library/Artifacts/f7/f773e1af2746565551e481e89f895f77
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/fa/fa99e240cf0fa46d474e47bfdc2117ff
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/fa/fa99e240cf0fa46d474e47bfdc2117ff
     projectPath: Library/Artifacts/fa/fa99e240cf0fa46d474e47bfdc2117ff
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/fa/fab7cfc045a69d5a798cfbcbd01d46c3
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/fa/fab7cfc045a69d5a798cfbcbd01d46c3
     projectPath: Library/Artifacts/fa/fab7cfc045a69d5a798cfbcbd01d46c3
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/fb/fb59ad3a135f98ef30f45a05b37eb320
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/fb/fb59ad3a135f98ef30f45a05b37eb320
+    projectPath: Library/Artifacts/fb/fb59ad3a135f98ef30f45a05b37eb320
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/fc/fcfe71949c692701608088295cbb196d
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/fc/fcfe71949c692701608088295cbb196d
+    projectPath: Library/Artifacts/fc/fcfe71949c692701608088295cbb196d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library/Artifacts/fd/fd1d110f16974e6d7383dc7cd2409541
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Artifacts/fd/fd1d110f16974e6d7383dc7cd2409541
     projectPath: Library/Artifacts/fd/fd1d110f16974e6d7383dc7cd2409541
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Bee/200b0aE.dag
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Bee/200b0aE.dag
+    projectPath: Library/Bee/200b0aE.dag
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/Bee/200b0aE.dag.json
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Bee/200b0aE.dag.json
+    projectPath: Library/Bee/200b0aE.dag.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/Bee/200b0aE.dag_derived
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Bee/200b0aE.dag_derived
+    projectPath: Library/Bee/200b0aE.dag_derived
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/Bee/200b0aE-inputdata.json
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Bee/200b0aE-inputdata.json
+    projectPath: Library/Bee/200b0aE-inputdata.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll
     projectPath: Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.pdb
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.pdb
     projectPath: Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.pdb
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.ref.dll
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.ref.dll
     projectPath: Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.ref.dll
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp
+    projectPath: Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/Bee/backend_profiler0.traceevents
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Bee/backend_profiler0.traceevents
     projectPath: Library/Bee/backend_profiler0.traceevents
     originalPath: 
-    indexStatus: 3
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/Bee/backend_profiler1.traceevents
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Bee/backend_profiler1.traceevents
+    projectPath: Library/Bee/backend_profiler1.traceevents
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/Bee/buildprogram0.traceevents
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/Bee/buildprogram0.traceevents
+    projectPath: Library/Bee/buildprogram0.traceevents
+    originalPath: 
+    indexStatus: 0
     workTreeStatus: 3
   - path: Library/Bee/fullprofile.json
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Bee/fullprofile.json
     projectPath: Library/Bee/fullprofile.json
     originalPath: 
-    indexStatus: 3
+    indexStatus: 0
     workTreeStatus: 3
   - path: Library/Bee/tundra.digestcache
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Bee/tundra.digestcache
     projectPath: Library/Bee/tundra.digestcache
     originalPath: 
-    indexStatus: 3
+    indexStatus: 0
     workTreeStatus: 3
   - path: Library/Bee/tundra.log.json
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Bee/tundra.log.json
     projectPath: Library/Bee/tundra.log.json
     originalPath: 
-    indexStatus: 3
+    indexStatus: 0
     workTreeStatus: 3
   - path: Library/Bee/TundraBuildState.state
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Bee/TundraBuildState.state
     projectPath: Library/Bee/TundraBuildState.state
     originalPath: 
-    indexStatus: 3
+    indexStatus: 0
     workTreeStatus: 3
   - path: Library/Bee/TundraBuildState.state.map
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Bee/TundraBuildState.state.map
     projectPath: Library/Bee/TundraBuildState.state.map
     originalPath: 
-    indexStatus: 3
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/EditorInstance.json
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
+    originalPath: 
+    indexStatus: 0
     workTreeStatus: 3
   - path: Library/gfu/cache/branches.yaml
     fullPath: /Users/nosh/Desktop/Plague Game/Library/gfu/cache/branches.yaml
     projectPath: Library/gfu/cache/branches.yaml
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/gfu/cache/gitlog.yaml
     fullPath: /Users/nosh/Desktop/Plague Game/Library/gfu/cache/gitlog.yaml
     projectPath: Library/gfu/cache/gitlog.yaml
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/gfu/cache/gitstatusentries.yaml
     fullPath: /Users/nosh/Desktop/Plague Game/Library/gfu/cache/gitstatusentries.yaml
     projectPath: Library/gfu/cache/gitstatusentries.yaml
     originalPath: 
-    indexStatus: 3
+    indexStatus: 0
     workTreeStatus: 3
   - path: Library/gfu/cache/gittrackingstatus.yaml
     fullPath: /Users/nosh/Desktop/Plague Game/Library/gfu/cache/gittrackingstatus.yaml
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/gfu/cache/repoinfo.yaml
     fullPath: /Users/nosh/Desktop/Plague Game/Library/gfu/cache/repoinfo.yaml
     projectPath: Library/gfu/cache/repoinfo.yaml
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Library/InspectorExpandedItems.asset
-    fullPath: /Users/nosh/Desktop/Plague Game/Library/InspectorExpandedItems.asset
-    projectPath: Library/InspectorExpandedItems.asset
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/LastSceneManagerSetup.txt
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/LastSceneManagerSetup.txt
+    projectPath: Library/LastSceneManagerSetup.txt
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/SceneVisibilityState.asset
     fullPath: /Users/nosh/Desktop/Plague Game/Library/SceneVisibilityState.asset
     projectPath: Library/SceneVisibilityState.asset
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/ScriptAssemblies/Assembly-CSharp.dll
     fullPath: /Users/nosh/Desktop/Plague Game/Library/ScriptAssemblies/Assembly-CSharp.dll
     projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/ScriptAssemblies/Assembly-CSharp.pdb
     fullPath: /Users/nosh/Desktop/Plague Game/Library/ScriptAssemblies/Assembly-CSharp.pdb
     projectPath: Library/ScriptAssemblies/Assembly-CSharp.pdb
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/Search/transactions.db
     fullPath: /Users/nosh/Desktop/Plague Game/Library/Search/transactions.db
     projectPath: Library/Search/transactions.db
     originalPath: 
-    indexStatus: 3
+    indexStatus: 0
     workTreeStatus: 3
   - path: Library/SourceAssetDB
     fullPath: /Users/nosh/Desktop/Plague Game/Library/SourceAssetDB
     projectPath: Library/SourceAssetDB
     originalPath: 
-    indexStatus: 3
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/SourceAssetDB-lock
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/SourceAssetDB-lock
+    projectPath: Library/SourceAssetDB-lock
+    originalPath: 
+    indexStatus: 0
     workTreeStatus: 3
   - path: Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
     fullPath: /Users/nosh/Desktop/Plague Game/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
     projectPath: Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/StateCache/PrefabStageHierarchy/7a/7a0c11fa0eef00f5a0449ded014d4259.json
     fullPath: /Users/nosh/Desktop/Plague Game/Library/StateCache/PrefabStageHierarchy/7a/7a0c11fa0eef00f5a0449ded014d4259.json
     projectPath: Library/StateCache/PrefabStageHierarchy/7a/7a0c11fa0eef00f5a0449ded014d4259.json
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
     fullPath: /Users/nosh/Desktop/Plague Game/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
     projectPath: Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/StateCache/SceneView/e3/e3c246fc679ab47898c243293fcfea1f.json
+    fullPath: /Users/nosh/Desktop/Plague Game/Library/StateCache/SceneView/e3/e3c246fc679ab47898c243293fcfea1f.json
+    projectPath: Library/StateCache/SceneView/e3/e3c246fc679ab47898c243293fcfea1f.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Logs/AssetImportWorker0.log
     fullPath: /Users/nosh/Desktop/Plague Game/Logs/AssetImportWorker0.log
     projectPath: Logs/AssetImportWorker0.log
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs/AssetImportWorker0-prev.log
+    fullPath: /Users/nosh/Desktop/Plague Game/Logs/AssetImportWorker0-prev.log
+    projectPath: Logs/AssetImportWorker0-prev.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Logs/AssetImportWorker1.log
     fullPath: /Users/nosh/Desktop/Plague Game/Logs/AssetImportWorker1.log
     projectPath: Logs/AssetImportWorker1.log
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs/AssetImportWorker1-prev.log
+    fullPath: /Users/nosh/Desktop/Plague Game/Logs/AssetImportWorker1-prev.log
+    projectPath: Logs/AssetImportWorker1-prev.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs/AssetImportWorker2-prev.log
+    fullPath: /Users/nosh/Desktop/Plague Game/Logs/AssetImportWorker2-prev.log
+    projectPath: Logs/AssetImportWorker2-prev.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings/TagManager.asset
+    fullPath: /Users/nosh/Desktop/Plague Game/ProjectSettings/TagManager.asset
+    projectPath: ProjectSettings/TagManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Temp/__Backupscenes/0.backup
     fullPath: /Users/nosh/Desktop/Plague Game/Temp/__Backupscenes/0.backup
     projectPath: Temp/__Backupscenes/0.backup
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Temp/FSTimeGet-281159a4cd3d6490a8c430e6c02e790d
     fullPath: /Users/nosh/Desktop/Plague Game/Temp/FSTimeGet-281159a4cd3d6490a8c430e6c02e790d
     projectPath: Temp/FSTimeGet-281159a4cd3d6490a8c430e6c02e790d
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/FSTimeGet-6af5f800530054f8a94bd67cabe0940a
+    fullPath: /Users/nosh/Desktop/Plague Game/Temp/FSTimeGet-6af5f800530054f8a94bd67cabe0940a
+    projectPath: Temp/FSTimeGet-6af5f800530054f8a94bd67cabe0940a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/FSTimeGet-ae6682882037643bba612796eb2a23e8
+    fullPath: /Users/nosh/Desktop/Plague Game/Temp/FSTimeGet-ae6682882037643bba612796eb2a23e8
+    projectPath: Temp/FSTimeGet-ae6682882037643bba612796eb2a23e8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp/FSTimeGet-af802028a48174a6eb203dc1f06e2793
     fullPath: /Users/nosh/Desktop/Plague Game/Temp/FSTimeGet-af802028a48174a6eb203dc1f06e2793
     projectPath: Temp/FSTimeGet-af802028a48174a6eb203dc1f06e2793
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 3
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/FSTimeGet-d0e8b9979b6724a9cab03818ef290c02
+    fullPath: /Users/nosh/Desktop/Plague Game/Temp/FSTimeGet-d0e8b9979b6724a9cab03818ef290c02
+    projectPath: Temp/FSTimeGet-d0e8b9979b6724a9cab03818ef290c02
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/FSTimeGet-d7c2af144ddcb430eb7631cb4ad06e80
+    fullPath: /Users/nosh/Desktop/Plague Game/Temp/FSTimeGet-d7c2af144ddcb430eb7631cb4ad06e80
+    projectPath: Temp/FSTimeGet-d7c2af144ddcb430eb7631cb4ad06e80
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1

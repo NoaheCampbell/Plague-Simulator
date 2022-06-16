@@ -13,13 +13,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2022-06-15T13:29:15.759-07:00
-  initializedAtString: 2022-06-15T13:29:15.745-07:00
+  lastUpdatedAtString: 2022-06-15T17:55:35.913-07:00
+  initializedAtString: 2022-06-15T17:55:35.833-07:00
   localBranches:
   - name: master
     tracking: 
   remoteBranches: []
-  remotes: []
+  remotes:
+  - name: origin
+    url: https://github.com/NoaheCampbell/Plague-Simulator.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
   localConfigBranches:
     keys:
     - master
@@ -34,5 +41,8 @@ MonoBehaviour:
     subKeys: []
     subKeyValues: []
   configRemotes:
-    keys: []
-    values: []
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/NoaheCampbell/Plague-Simulator.git

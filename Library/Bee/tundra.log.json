@@ -436,12 +436,3 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/200b0aE.dag/Unity.CollabProxy.Editor.AdditionalFile.txt","enqueuedNodeIndex":346,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/200b0aE.dag/Unity.CollabProxy.Editor.dll (+2 others)","enqueueingNodeIndex":348}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/200b0aE.dag/Unity.CollabProxy.Editor.rsp","enqueuedNodeIndex":347,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/200b0aE.dag/Unity.CollabProxy.Editor.dll (+2 others)","enqueueingNodeIndex":348}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb","enqueuedNodeIndex":437,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":5}
-{"msg":"nodeRetryBuild","annotation":"Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)","index":343}
-{"msg":"runNodeAction","annotation":"Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)","index":343}
-{"msg":"noderesult","processed_node_count":433,"number_of_nodes_ever_queued":437,"annotation":"Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)","index":343,"exitcode":0,"outputfile":"Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll"}
-{"msg":"inputSignatureChanged","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":434,"changes":[{"key":"InputFileList","value":["Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll"],"oldvalue":[],"dependency":"explicit"}]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":434}
-{"msg":"inputSignatureChanged","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":435,"changes":[{"key":"InputFileList","value":["Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.pdb"],"oldvalue":[],"dependency":"explicit"}]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":435}
-{"msg":"noderesult","processed_node_count":434,"number_of_nodes_ever_queued":437,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":434,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Assembly-CSharp.dll"}
-{"msg":"noderesult","processed_node_count":435,"number_of_nodes_ever_queued":437,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":435,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Assembly-CSharp.pdb"}

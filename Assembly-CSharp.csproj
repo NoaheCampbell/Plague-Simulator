@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/Scripts/CameraScript.cs" />
      <Compile Include="Assets/Scripts/DiseaseMaster.cs" />
      <Compile Include="Assets/Scripts/Spawner.cs" />
      <Compile Include="Assets/Scripts/PersonMaster.cs" />
