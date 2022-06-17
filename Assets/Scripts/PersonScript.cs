@@ -50,10 +50,14 @@ public class PersonScript : MonoBehaviour
             }
         }
         
-        personMaster.maxTimeAlive += Random.Range(-10f, 10f);
-        diseaseMaster.recoveryTime += Random.Range(-10f, 10f);
-        personMaster.immuneTime += Random.Range(-10f, 10f);
-
+        personMaster.maxTimeAlive += Random.Range(-0.5f, 0.5f);
+        personMaster.speed += Random.Range(-0.5f, 0.5f);
+        personMaster.immuneTime += Random.Range(-0.5f, 0.5f);
+        personMaster.timeNeededToSpawn += Random.Range(-0.5f, 0.5f);
+        diseaseMaster.infectionChance += Random.Range(-0.5f, 0.5f);
+        diseaseMaster.recoveryChance += Random.Range(-0.5f, 0.5f);  
+        diseaseMaster.recoveryTime += Random.Range(-0.5f, 0.5f);
+        diseaseMaster.incubationTime += Random.Range(-0.5f, 0.5f);
 
         transform.rotation = Quaternion.Euler(0, Random.Range(0f, 360f), 0);
 
@@ -124,7 +128,6 @@ public class PersonScript : MonoBehaviour
     public void ChangeDirection()
     {
         StartCoroutine(ChangeDirectionCoroutine());
-        cameraScript.ResetCameraRotation();
     }
 
     public void MoveForward()

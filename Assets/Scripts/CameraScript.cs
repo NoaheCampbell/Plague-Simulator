@@ -7,16 +7,18 @@ public class CameraScript : MonoBehaviour
 
     private Quaternion originalRotation;
     private Vector3 originalPosition;
+    private CameraMovement cameraMovement;
     public GameObject person;
-    public bool canMoveZ;
     public Vector3 cameraPos;
+    public bool isFollowing;
 
     // Start is called before the first frame update
     void Start()
     {
+        cameraMovement = GetComponent<CameraMovement>();
         originalRotation = transform.rotation;
         originalPosition = transform.position;
-        canMoveZ = true;
+        isFollowing = false;        
     }
 
     // Update is called once per frame
@@ -27,14 +29,19 @@ public class CameraScript : MonoBehaviour
             CheckForPerson();
         }
 
-        if (transform.rotation != originalRotation)
-        {
-            ResetCameraRotation();
-        }
-
-        if (person != null)
+        if (isFollowing)
         {
             FollowPerson();
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            StopFollowing();
+        }
+
+        if (person == null && isFollowing)
+        {
+            StopFollowing();
         }
     }
 
@@ -48,22 +55,16 @@ public class CameraScript : MonoBehaviour
             if (hit.transform.gameObject.tag == "Person")
             {
                 person = hit.transform.gameObject;
+                isFollowing = true;
+                cameraMovement.canMove = false;
             }
         }
     }
 
     public void FollowPerson()
     {
-        if (canMoveZ)
-        {
-            cameraPos = new Vector3(person.transform.position.x, person.transform.position.y + 3, person.transform.position.z - 4);
-            transform.position = cameraPos;
-        }
-
-        else
-        {
-            transform.position = new Vector3(person.transform.position.x, person.transform.position.y + 3, transform.position.z);
-        }
+        cameraPos = new Vector3(person.transform.position.x, person.transform.position.y + 3, person.transform.position.z - 4);
+        transform.position = cameraPos;
     }
 
     public void ResetCamera()
@@ -82,8 +83,12 @@ public class CameraScript : MonoBehaviour
         transform.position = new Vector3(-transform.position.x, transform.position.y, -transform.position.z);
     }
 
-    public void ChangeAllowedDirection()
+    public void StopFollowing()
     {
-        canMoveZ = !canMoveZ;
+        isFollowing = false;
+        person = null;
+        cameraMovement.canMove = true;
+        transform.position = originalPosition;
+        transform.rotation = originalRotation;
     }
 }

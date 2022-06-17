@@ -8,17 +8,23 @@ public class GameMaster : MonoBehaviour
     public int immunePeople;
     public int unInfectedPeople;
     public ArrayList people = new ArrayList();
+    public float speedOfGame;
 
     // Start is called before the first frame update
     void Start()
     {
-       
+       speedOfGame = 1f;
     }
 
     // Update is called once per frame
     void Update()
     {
         UpdatePeople();
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            speedOfGame += 0.5f;
+        }
     }
 
     public void UpdatePeople()

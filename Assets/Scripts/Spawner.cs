@@ -24,10 +24,30 @@ public class Spawner : MonoBehaviour
     public void Spawn(GameObject parent, GameObject parent2)
     {
         var randomNum = Random.Range(0f, 100f);
+
        
         if (randomNum <= spawnChance && currentSpawns < maxSpawns)
         {
+            var parent1Script = parent.GetComponent<PersonScript>();
+            var parent2Script = parent2.GetComponent<PersonScript>();
+            
+            var averageLifeTime = (parent1Script.personMaster.maxTimeAlive + parent2Script.personMaster.maxTimeAlive) / 2f;
+            var averageImmuneTime = (parent1Script.personMaster.immuneTime + parent2Script.personMaster.immuneTime) / 2f;
+            var averageRecoveryTime = (parent1Script.diseaseMaster.recoveryTime + parent2Script.diseaseMaster.recoveryTime) / 2f;
+            var averageInfectionChance = (parent1Script.diseaseMaster.infectionChance + parent2Script.diseaseMaster.infectionChance) / 2f;
+            var averageSpeed = (parent1Script.personMaster.speed + parent2Script.personMaster.speed) / 2f;
+            var averageTimeNeededToSpawn = (parent1Script.personMaster.timeNeededToSpawn + parent2Script.personMaster.timeNeededToSpawn) / 2f;
+            var averageIncubationTime = (parent1Script.diseaseMaster.incubationTime + parent2Script.diseaseMaster.incubationTime) / 2f;
+
             var childPerson = Instantiate(personPrefab, parent.transform.position, Quaternion.identity);
+
+            childPerson.GetComponent<PersonScript>().diseaseMaster.recoveryTime = averageRecoveryTime;
+            childPerson.GetComponent<PersonScript>().diseaseMaster.infectionChance = averageInfectionChance;
+            childPerson.GetComponent<PersonScript>().personMaster.speed = averageSpeed;
+            childPerson.GetComponent<PersonScript>().personMaster.maxTimeAlive = averageLifeTime;
+            childPerson.GetComponent<PersonScript>().personMaster.immuneTime = averageImmuneTime;
+            childPerson.GetComponent<PersonScript>().personMaster.timeNeededToSpawn = averageTimeNeededToSpawn;
+            childPerson.GetComponent<PersonScript>().diseaseMaster.incubationTime = averageIncubationTime;
 
             var parent1Immunity = parent.GetComponent<PersonMaster>().isImmuneFromStart;
             var parent2Immunity = parent2.GetComponent<PersonMaster>().isImmuneFromStart;
