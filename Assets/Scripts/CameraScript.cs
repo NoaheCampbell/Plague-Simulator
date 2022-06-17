@@ -29,17 +29,17 @@ public class CameraScript : MonoBehaviour
             CheckForPerson();
         }
 
+        if (person == null && isFollowing)
+        {
+            StopFollowing();
+        }
+
         if (isFollowing)
         {
             FollowPerson();
         }
 
         if (Input.GetKeyDown(KeyCode.Z))
-        {
-            StopFollowing();
-        }
-
-        if (person == null && isFollowing)
         {
             StopFollowing();
         }

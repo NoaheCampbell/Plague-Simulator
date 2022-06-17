@@ -23,12 +23,12 @@ public class GameMaster : MonoBehaviour
     {
         UpdatePeople();
 
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             AddToSpeed();
             AccountForGameSpeed();
         }
-        else if (Input.GetKeyDown(KeyCode.DownArrow))
+        else if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             SubtractFromSpeed();
             AccountForGameSpeed();
@@ -94,7 +94,7 @@ public class GameMaster : MonoBehaviour
             personScript.personMaster.timeSinceLastSpawn *= newGameSpeed;
             personScript.personMaster.timeSinceInfected *= newGameSpeed;
             personScript.personMaster.timeSinceRecovered *= newGameSpeed;
-            personScript.personMaster.timeAlive *= newGameSpeed;
+            personScript.personMaster.timeAlive /= newGameSpeed;
 
             personScript.diseaseMaster.infectionChance /= newGameSpeed;
             personScript.diseaseMaster.recoveryChance /= newGameSpeed;

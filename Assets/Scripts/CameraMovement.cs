@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
+    public float rotationSpeed;
     public float speed;
     public Vector3 corner1;
     public Vector3 corner2;
@@ -15,7 +16,8 @@ public class CameraMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = 5f;
+        rotationSpeed = 0.1f;
+        speed = 10f;
         corner1 = new Vector3(-52, 0, 18);
         corner2 = new Vector3(19, 0, 18);
         corner3 = new Vector3(19, 0, -52);
@@ -47,24 +49,24 @@ public class CameraMovement : MonoBehaviour
                 transform.position += transform.right * speed * Time.deltaTime;
             }
             
-            // Handles up and down movement using arrow keys
-            if (Input.GetKey(KeyCode.Space))
+            // Handles up and down rotation using arrow keys
+            if (Input.GetKey(KeyCode.UpArrow))
             {
-                transform.position += transform.up * speed * Time.deltaTime;
+                transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x - rotationSpeed, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z);
             }
-            if (Input.GetKey(KeyCode.LeftShift))
+            if (Input.GetKey(KeyCode.DownArrow))
             {
-                transform.position -= transform.up * speed * Time.deltaTime;
+                transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x + rotationSpeed, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z);
             }
 
-            // Rotates the camera's y axis left and right using the left and right arrow keys
+            // Changes the camera's y rotation left and right using the left and right arrow keys
             if (Input.GetKey(KeyCode.LeftArrow))
             {
-                transform.Rotate(transform.up, -speed * Time.deltaTime);
+                transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y - rotationSpeed, transform.rotation.eulerAngles.z);
             }
             if (Input.GetKey(KeyCode.RightArrow))
             {
-                transform.Rotate(transform.up, speed * Time.deltaTime);
+                transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y + rotationSpeed, transform.rotation.eulerAngles.z);
             }
         }
 
