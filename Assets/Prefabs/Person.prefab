@@ -107,6 +107,7 @@ MonoBehaviour:
   spawner: {fileID: 0}
   diseaseMaster: {fileID: 0}
   meshRenderer: {fileID: 0}
+  cameraScript: {fileID: 0}
   infectedMaterial: {fileID: 2100000, guid: 5c73e1f783532451984e8461502827ea, type: 2}
   unInfectedMaterial: {fileID: 2100000, guid: ca1b5397da8b5498881b4c96b1be43a3, type: 2}
   immuneMaterial: {fileID: 2100000, guid: ae405fc31095d4480a6d700d4559dc25, type: 2}
@@ -189,14 +190,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2974438060368438311}
-  m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: 0, y: 3, z: -4}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6798288087602266556}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4424812196011293983
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,10 +209,9 @@ GameObject:
   - component: {fileID: 629664363979887508}
   - component: {fileID: 6598452488213614267}
   - component: {fileID: 1422418986956206488}
-  - component: {fileID: 1143234892562609989}
   m_Layer: 0
   m_Name: Capsule
-  m_TagString: CameraBound
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -281,17 +281,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &1143234892562609989
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4424812196011293983}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}

@@ -5,10 +5,18 @@ using UnityEngine;
 public class CameraScript : MonoBehaviour
 {
 
+    private Quaternion originalRotation;
+    private Vector3 originalPosition;
+    public GameObject person;
+    public bool canMoveZ;
+    public Vector3 cameraPos;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        originalRotation = transform.rotation;
+        originalPosition = transform.position;
+        canMoveZ = true;
     }
 
     // Update is called once per frame
@@ -16,30 +24,66 @@ public class CameraScript : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            RaycastHit hit = new RaycastHit();
-            bool hitSomething = Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit);
+            CheckForPerson();
+        }
 
-            if (hitSomething)
+        if (transform.rotation != originalRotation)
+        {
+            ResetCameraRotation();
+        }
+
+        if (person != null)
+        {
+            FollowPerson();
+        }
+    }
+
+    public void CheckForPerson()
+    {
+        RaycastHit hit = new RaycastHit();
+        bool hitSomething = Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit);
+
+        if (hitSomething)
+        {
+            if (hit.transform.gameObject.tag == "Person")
             {
-                if (hit.transform.gameObject.tag == "CameraBound")
-                {
-                    SetPerson(hit.transform.parent.gameObject);
-                }
+                person = hit.transform.gameObject;
             }
         }
     }
 
-    public void SetPerson(GameObject person)
+    public void FollowPerson()
     {
-        transform.SetParent(person.transform);
+        if (canMoveZ)
+        {
+            cameraPos = new Vector3(person.transform.position.x, person.transform.position.y + 3, person.transform.position.z - 4);
+            transform.position = cameraPos;
+        }
 
-        transform.position = transform.parent.Find("CameraPosition").position;
-        transform.rotation = new Quaternion(transform.rotation.x, 0, 0, transform.rotation.w);
+        else
+        {
+            transform.position = new Vector3(person.transform.position.x, person.transform.position.y + 3, transform.position.z);
+        }
     }
 
     public void ResetCamera()
     {
         gameObject.transform.SetParent(null);
-        transform.position = new Vector3(-17, 23, -66);
+        transform.position = originalPosition;
+    }
+
+    public void ResetCameraRotation()
+    {
+        transform.rotation = originalRotation;
+    }
+
+    public void PutCameraInPosition()
+    {
+        transform.position = new Vector3(-transform.position.x, transform.position.y, -transform.position.z);
+    }
+
+    public void ChangeAllowedDirection()
+    {
+        canMoveZ = !canMoveZ;
     }
 }

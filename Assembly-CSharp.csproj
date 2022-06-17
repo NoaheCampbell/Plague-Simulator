@@ -37,12 +37,15 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Scripts/CameraScript.cs" />
+     <Compile Include="Assets/Scripts/GameMaster.cs" />
      <Compile Include="Assets/Scripts/DiseaseMaster.cs" />
      <Compile Include="Assets/Scripts/Spawner.cs" />
+     <Compile Include="Assets/Scripts/TextPositioningScript.cs" />
      <Compile Include="Assets/Scripts/PersonMaster.cs" />
      <Compile Include="Assets/Scripts/WallCollision.cs" />
      <Compile Include="Assets/Scripts/PersonScript.cs" />
      <Compile Include="Assets/Scripts/FloorCollision.cs" />
+     <Compile Include="Assets/Scripts/CameraMovement.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

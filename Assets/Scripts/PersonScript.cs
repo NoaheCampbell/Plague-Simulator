@@ -8,6 +8,8 @@ public class PersonScript : MonoBehaviour
     public Spawner spawner;
     public DiseaseMaster diseaseMaster;
     public MeshRenderer meshRenderer;
+    public CameraScript cameraScript;
+    public GameMaster gameMaster;
     public Material infectedMaterial;
     public Material unInfectedMaterial;
     public Material immuneMaterial;
@@ -22,6 +24,9 @@ public class PersonScript : MonoBehaviour
         spawner = GetComponent<Spawner>();
         diseaseMaster = GetComponent<DiseaseMaster>();
         meshRenderer = transform.GetChild(0).GetComponent<MeshRenderer>();
+        cameraScript = GameObject.Find("Main Camera").GetComponent<CameraScript>();
+        gameMaster = GameObject.Find("GameMaster").GetComponent<GameMaster>();
+
         canMoveForward = true;
 
         if (!personMaster.isImmuneFromStart)
@@ -52,9 +57,11 @@ public class PersonScript : MonoBehaviour
 
         transform.rotation = Quaternion.Euler(0, Random.Range(0f, 360f), 0);
 
-        timeBetweenCalls = 30f;
+        timeBetweenCalls = 40f;
 
         ResetTimers();
+
+        gameMaster.AddPerson(gameObject);
     }
 
     // Update is called once per frame
@@ -65,6 +72,8 @@ public class PersonScript : MonoBehaviour
         MoveForward();
 
         UpdateTimers();
+
+        UpdateMaterials();
 
     }
 
@@ -88,7 +97,7 @@ public class PersonScript : MonoBehaviour
                     }
                 }
             }
-            timeBetweenCalls = 30f;
+            timeBetweenCalls = 40f;
         }
         else
         {
@@ -98,7 +107,7 @@ public class PersonScript : MonoBehaviour
 
     public void Infect(GameObject person)
     {
-        if (!personMaster.isImmuneFromStart)
+        if (!personMaster.isImmuneFromStart || !personMaster.isImmune)
         {
             if (person.GetComponent<PersonMaster>().isInfected && person.GetComponent<PersonMaster>().canInfect)
             {
@@ -115,6 +124,7 @@ public class PersonScript : MonoBehaviour
     public void ChangeDirection()
     {
         StartCoroutine(ChangeDirectionCoroutine());
+        cameraScript.ResetCameraRotation();
     }
 
     public void MoveForward()
@@ -129,11 +139,7 @@ public class PersonScript : MonoBehaviour
     {
         if (personMaster.isInfected)
         {
-            if (personMaster.timeSinceInfected < diseaseMaster.incubationTime)
-            {
-                personMaster.timeSinceInfected += Time.deltaTime;
-            }
-            else if (personMaster.timeSinceInfected >= diseaseMaster.incubationTime && !personMaster.canInfect)
+            if (personMaster.timeSinceInfected >= diseaseMaster.incubationTime)
             {
                 personMaster.canInfect = true;
             }
@@ -142,6 +148,7 @@ public class PersonScript : MonoBehaviour
             {
                 SetImmune();
             }
+            personMaster.timeSinceInfected += Time.deltaTime;
         }
         if (personMaster.isImmune && !personMaster.isImmuneFromStart)
         {
@@ -154,7 +161,6 @@ public class PersonScript : MonoBehaviour
                 personMaster.timeSinceRecovered += Time.deltaTime;
             }
         }
-
 
         if (personMaster.timeAlive >= personMaster.maxTimeAlive)
         {
@@ -170,6 +176,7 @@ public class PersonScript : MonoBehaviour
 
     public void Death()
     {
+        gameMaster.RemovePerson(gameObject);
         Destroy(gameObject);
     }
 
@@ -195,6 +202,22 @@ public class PersonScript : MonoBehaviour
         personMaster.isInfected = false;
         personMaster.canInfect = true;
         meshRenderer.material = unInfectedMaterial;
+    }
+
+    public void UpdateMaterials()
+    {
+        if (personMaster.isInfected)
+        {
+            meshRenderer.material = infectedMaterial;
+        }
+        else if (personMaster.isImmune || personMaster.isImmuneFromStart)
+        {
+            meshRenderer.material = immuneMaterial;
+        }
+        else
+        {
+            meshRenderer.material = unInfectedMaterial;
+        }
     }
 
     IEnumerator ChangeDirectionCoroutine()
