@@ -34,7 +34,7 @@ public class CameraScript : MonoBehaviour
             FollowPerson();
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.Z))
         {
             StopFollowing();
         }

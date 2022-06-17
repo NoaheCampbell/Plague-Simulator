@@ -50,18 +50,12 @@ public class PersonScript : MonoBehaviour
             }
         }
         
-        personMaster.maxTimeAlive += Random.Range(-0.5f, 0.5f);
-        personMaster.speed += Random.Range(-0.5f, 0.5f);
-        personMaster.immuneTime += Random.Range(-0.5f, 0.5f);
-        personMaster.timeNeededToSpawn += Random.Range(-0.5f, 0.5f);
-        diseaseMaster.infectionChance += Random.Range(-0.5f, 0.5f);
-        diseaseMaster.recoveryChance += Random.Range(-0.5f, 0.5f);  
-        diseaseMaster.recoveryTime += Random.Range(-0.5f, 0.5f);
-        diseaseMaster.incubationTime += Random.Range(-0.5f, 0.5f);
+        AddDriftToStats();
+        // AccountForGameSpeed();
 
         transform.rotation = Quaternion.Euler(0, Random.Range(0f, 360f), 0);
 
-        timeBetweenCalls = 40f;
+        timeBetweenCalls = 0f;
 
         ResetTimers();
 
@@ -101,7 +95,7 @@ public class PersonScript : MonoBehaviour
                     }
                 }
             }
-            timeBetweenCalls = 40f;
+            timeBetweenCalls = 0f;
         }
         else
         {
@@ -221,6 +215,36 @@ public class PersonScript : MonoBehaviour
         {
             meshRenderer.material = unInfectedMaterial;
         }
+    }
+
+    public void AccountForGameSpeed()
+    {
+        var newGameSpeed = gameMaster.previousSpeed / gameMaster.gameSpeed;
+        personMaster.speed /= newGameSpeed;
+        personMaster.immuneTime /= newGameSpeed;
+        personMaster.maxTimeAlive /= newGameSpeed;
+        personMaster.timeNeededToSpawn /= newGameSpeed;
+        personMaster.timeSinceLastSpawn /= newGameSpeed;
+        personMaster.timeSinceInfected /= newGameSpeed;
+        personMaster.timeSinceRecovered /= newGameSpeed;
+        personMaster.timeAlive /= newGameSpeed;
+
+        diseaseMaster.infectionChance /= newGameSpeed;
+        diseaseMaster.recoveryChance /= newGameSpeed;
+        diseaseMaster.recoveryTime /= newGameSpeed;
+        diseaseMaster.incubationTime /= newGameSpeed;
+    }
+
+    public void AddDriftToStats()
+    {
+        personMaster.maxTimeAlive += Random.Range(-0.5f, 0.5f);
+        personMaster.speed += Random.Range(-0.5f, 0.5f);
+        personMaster.immuneTime += Random.Range(-0.5f, 0.5f);
+        personMaster.timeNeededToSpawn += Random.Range(-0.5f, 0.5f);
+        diseaseMaster.infectionChance += Random.Range(-0.5f, 0.5f);
+        diseaseMaster.recoveryChance += Random.Range(-0.5f, 0.5f);  
+        diseaseMaster.recoveryTime += Random.Range(-0.5f, 0.5f);
+        diseaseMaster.incubationTime += Random.Range(-0.5f, 0.5f);
     }
 
     IEnumerator ChangeDirectionCoroutine()

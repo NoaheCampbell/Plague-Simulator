@@ -8,12 +8,14 @@ public class GameMaster : MonoBehaviour
     public int immunePeople;
     public int unInfectedPeople;
     public ArrayList people = new ArrayList();
-    public float speedOfGame;
+    public float gameSpeed;
+    public float previousSpeed;
 
     // Start is called before the first frame update
     void Start()
     {
-       speedOfGame = 1f;
+       gameSpeed = 1f;
+       previousSpeed = 1f;
     }
 
     // Update is called once per frame
@@ -21,9 +23,15 @@ public class GameMaster : MonoBehaviour
     {
         UpdatePeople();
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            speedOfGame += 0.5f;
+            AddToSpeed();
+            AccountForGameSpeed();
+        }
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            SubtractFromSpeed();
+            AccountForGameSpeed();
         }
     }
 
@@ -58,5 +66,40 @@ public class GameMaster : MonoBehaviour
     public void RemovePerson(GameObject person)
     {
         people.Remove(person);
+    }
+
+    public void AddToSpeed()
+    {
+        previousSpeed = gameSpeed;
+        gameSpeed += 0.1f;
+    }
+
+    public void SubtractFromSpeed()
+    {
+        previousSpeed = gameSpeed;
+        gameSpeed -= 0.1f;
+    }
+
+    public void AccountForGameSpeed()
+    {
+        foreach (GameObject person in people)
+        {
+            var personScript = person.GetComponent<PersonScript>();
+
+            var newGameSpeed = previousSpeed / gameSpeed;
+            personScript.personMaster.speed /= newGameSpeed;
+            personScript.personMaster.immuneTime *= newGameSpeed;
+            personScript.personMaster.maxTimeAlive *= newGameSpeed;
+            personScript.personMaster.timeNeededToSpawn *= newGameSpeed;
+            personScript.personMaster.timeSinceLastSpawn *= newGameSpeed;
+            personScript.personMaster.timeSinceInfected *= newGameSpeed;
+            personScript.personMaster.timeSinceRecovered *= newGameSpeed;
+            personScript.personMaster.timeAlive *= newGameSpeed;
+
+            personScript.diseaseMaster.infectionChance /= newGameSpeed;
+            personScript.diseaseMaster.recoveryChance /= newGameSpeed;
+            personScript.diseaseMaster.recoveryTime *= newGameSpeed;
+            personScript.diseaseMaster.incubationTime *= newGameSpeed;
+        }
     }
 }

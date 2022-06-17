@@ -48,11 +48,11 @@ public class CameraMovement : MonoBehaviour
             }
             
             // Handles up and down movement using arrow keys
-            if (Input.GetKey(KeyCode.UpArrow))
+            if (Input.GetKey(KeyCode.Space))
             {
                 transform.position += transform.up * speed * Time.deltaTime;
             }
-            if (Input.GetKey(KeyCode.DownArrow))
+            if (Input.GetKey(KeyCode.LeftShift))
             {
                 transform.position -= transform.up * speed * Time.deltaTime;
             }
